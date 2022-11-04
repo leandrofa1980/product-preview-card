@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 37.5rem;
+}
+
+.container img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.img-alternative {
+  display: none;
+}
+
+.card-main {
+  background: #fff;
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+  border-radius: 0px 10px 10px 0px ;
+}
+
+.card-main h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  color: hsl(212, 21%, 14%);
+}
+
+.subtitulo {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  font-size: 0.875rem;
+  letter-spacing: 0.125rem;
+}
+
+.card-main p {
+  color: hsl(228, 12%, 48%);
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-family: 'Fraunces';
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.price-promo {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  padding: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 235px;
+  height: 46px;
+  color: #fff;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  border: 1px solid hsl(158, 36%, 37%);
+}
+
+.btn:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    max-width: 355px;
+  }
+
+  .img-principal {
+    display: none;
+  }
+
+  .card-main {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .container .img-alternative {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .btn {
+    width: 300px;
+    height: 50px;
+  }
+}
