@@ -26,11 +26,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/leandrofa1980/product-preview-card)
+- Live Site URL: [Netlify](https://leandrofa1980-product-preview-card.netlify.app/)
 
 
 ## Author
 
-- GitHub - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/leandrofa1980)
+- Frontend Mentor - [@leandrofa1980](https://www.frontendmentor.io/profile/leandrofa1980)
