@@ -24,9 +24,11 @@ p {
   padding: 0px;
 }
 
-img {
+img,
+picture {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 .container {
@@ -39,10 +41,6 @@ img {
   border-radius: 10px 0px 0px 10px;
 }
 
-.img-alternative {
-  display: none;
-}
-
 .card-main {
   background: #fff;
   padding: 30px;
@@ -50,7 +48,7 @@ img {
   gap: 20px;
   align-content: center;
   justify-content: center;
-  border-radius: 0px 10px 10px 0px ;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .card-main h1 {
@@ -64,7 +62,7 @@ img {
   text-transform: uppercase;
   color: hsl(228, 12%, 48%);
   font-size: 0.875rem;
-  letter-spacing: 0.125rem;
+  letter-spacing: 0.25rem;
 }
 
 .card-main p {
@@ -83,9 +81,17 @@ img {
 }
 
 .price-promo {
-  text-decoration: line-through;
   color: hsl(228, 12%, 48%);
   padding: 20px;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .btn {
